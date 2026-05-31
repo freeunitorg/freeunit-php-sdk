@@ -15,6 +15,13 @@
 <a href="https://deepwiki.com/Pavlusha311245/nginx-unit-php-sdk"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
+## ⚠️ Repository Moved / Archived Notice
+
+> [!IMPORTANT]
+> The original **Nginx Unit** repository has been archived, along with its related content.
+>
+> Development now continues in the **FreeUnit** fork, whose maintainers are working to support and further develop the project.
+
 ## About
 
 SDK allows developers to interact with the Nginx Unit web server through php classes. This project will help embed web
