@@ -15,7 +15,7 @@ use UnitPhpSdk\Contracts\{ApplicationStatisticsInterface,
 use UnitPhpSdk\Exceptions\UnitParseException;
 
 /**
- * This class returns statistics from Nginx Unit
+ * This class returns statistics from FreeUnit
  *
  * @implements StatisticsInterface
  * @final

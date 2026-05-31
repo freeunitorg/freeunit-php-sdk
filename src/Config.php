@@ -17,7 +17,7 @@ use UnitPhpSdk\Enums\HttpMethodsEnum;
 use UnitPhpSdk\Traits\CanUpload;
 
 /**
- * This class contains Nginx Unit config data
+ * This class contains FreeUnit config data
  *
  * @implements ConfigInterface
  */
@@ -396,7 +396,7 @@ class Config implements ConfigInterface, Uploadable
     }
 
     /**
-     * Remove application from Nginx Unit.
+     * Remove application from FreeUnit.
      * Cain receive application name or application object
      *
      * @throws UnitException

@@ -19,7 +19,7 @@ class UnitRequest
     private mixed $data;
 
     /**
-     * Nginx Unit address
+     * FreeUnit address
      *
      * @var string
      */

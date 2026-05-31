@@ -23,7 +23,7 @@ interface ConfigInterface extends Arrayable, Jsonable
     public function getListenerByPort(int $port): Listener|null;
 
     /**
-     * Upload Listener object to Nginx Unit server
+     * Upload Listener object to FreeUnit server
      *
      * @param Listener $listener
      * @return bool
@@ -81,7 +81,7 @@ interface ConfigInterface extends Arrayable, Jsonable
     public function getApplication($applicationName): ?AbstractApplication;
 
     /**
-     * Upload application to Nginx Unit
+     * Upload application to FreeUnit
      *
      * @param AbstractApplication $application
      * @param string $name
@@ -90,7 +90,7 @@ interface ConfigInterface extends Arrayable, Jsonable
     public function uploadApplication(AbstractApplication $application, string $name = ''): bool;
 
     /**
-     * Upload application to Nginx Unit from file
+     * Upload application to FreeUnit from file
      *
      * @param string $path
      * @param string $applicationName
@@ -121,7 +121,7 @@ interface ConfigInterface extends Arrayable, Jsonable
     public function uploadUpstream(Upstream $upstream, string $name): bool;
 
     /**
-     * Upload all upstreams from file to Nginx Unit
+     * Upload all upstreams from file to FreeUnit
      *
      * @param string $path
      * @return mixed
