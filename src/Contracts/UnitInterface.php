@@ -54,7 +54,7 @@ interface UnitInterface extends Arrayable, Jsonable
     public function uploadCertificate(string $path, string $certificateName);
 
     /**
-     * Return full config uploaded on Nginx Unit
+     * Return full config uploaded on FreeUnit
      *
      * @return ConfigInterface
      */

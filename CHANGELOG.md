@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.9.1 - [2026/05/31]
+
+- Original repository were moved to new organization and renamed to FreeUnit. Updated all links and documentation to reflect this change.
+
 ## v0.9.0 - [2025/09/20]
 
 - Added new class `Telemetry` and `TelemetryProtocolEnum` for telemetry support

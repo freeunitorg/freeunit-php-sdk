@@ -1,30 +1,14 @@
 <p align="center">
-<img style="text-align: center" src="https://15804523-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F77F3kdmGsRkZFelMUJq1%2Ficon%2FnsTZCyEjC1z8LJWkzLro%2F%D1%8B.svg?alt=media&token=ce321f03-8fdf-4c4d-aaef-888183f713f6" width="200" alt="Company logo">
+<b style="font-size: 2rem">PHP SDK for FreeUnit</b>
 </p>
 
 <p align="center">
-<b style="font-size: 2rem">PHP SDK for Nginx Unit</b>
+<a href="https://deepwiki.com/freeunitorg/freeunit-php-sdk"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
-
-<p align="center">
-<a href="https://packagist.org/packages/pavlusha311245/unit-php-sdk"><img src="https://img.shields.io/packagist/v/Pavlusha311245/unit-php-sdk?labelColor=%231e293b&color=%23702963&link=https%3A%2F%2Fpackagist.org%2Fpackages%2Fpavlusha311245%2Funit-php-sdk" alt="packagist link"></a>
-<img src="https://github.com/Pavlusha311245/nginx-unit-php-sdk/actions/workflows/deploy_codecov.yaml/badge.svg" alt="documentation link">
-<a href="https://codecov.io/gh/Pavlusha311245/nginx-unit-php-sdk" > 
- <img src="https://codecov.io/gh/Pavlusha311245/nginx-unit-php-sdk/graph/badge.svg?token=FGTTDSJ7BX" alt="Codecov dabge"/> 
- </a>
-<a href="https://deepwiki.com/Pavlusha311245/nginx-unit-php-sdk"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
-</p>
-
-## ⚠️ Repository Moved / Archived Notice
-
-> [!IMPORTANT]
-> The original **Nginx Unit** repository has been archived, along with its related content.
->
-> Development now continues in the **FreeUnit** fork, whose maintainers are working to support and further develop the project.
 
 ## About
 
-SDK allows developers to interact with the Nginx Unit web server through php classes. This project will help embed web
+SDK allows developers to interact with the FreeUnit web server through php classes. This project will help embed web
 server management into your projects
 > This project in development. Don't use it in production. Some features may not work correctly. Please report bugs and issues to the issue tracker.
 
@@ -35,21 +19,28 @@ server management into your projects
 
 ### Supported Versions
 
-| Version | Nginx Unit Capability | Supported          |
-|---------|:----------------------|--------------------|
-| 0.9.x   | >= 1.33.0             | :white_check_mark: |
-| 0.8.x   | <= 1.32.1             | :x:                |
-| < 0.7.x | -                     | :x:                |
+| Version | FreeUnit Capability | Supported          |
+|---------|:--------------------|--------------------|
+| 0.9.x   | >= 1.33.0           | :white_check_mark: |
+| 0.8.x   | <= 1.32.1           | :x:                |
+| < 0.7.x | -                   | :x:                |
 
-### Quick start
+[//]: # (TODO: need to update documentation and badges to reflect the change of the project name and links)
 
-How to start using the SDK in your project you can find in the [documentation](https://unit-sdk.pavlusha.me/installation).
+[//]: # (### Quick start) 
 
-### Documentation
+[//]: # ()
+[//]: # (How to start using the SDK in your project you can find in the [documentation]&#40;&#41;.)
 
-The Unit SDK offers a wide range of functionality. More examples and detailed information about its features,
-installation, and use can be found [in the documentation](https://unit-sdk.pavlusha.me/). Check it out to make the most
-of this extensive tool. Happy coding 😊
+[//]: # ()
+[//]: # (### Documentation)
+
+[//]: # ()
+[//]: # (The Unit SDK offers a wide range of functionality. More examples and detailed information about its features,)
+
+[//]: # (installation, and use can be found [in the documentation]&#40;&#41;. Check it out to make the most)
+
+[//]: # (of this extensive tool. Happy coding 😊)
 
 ## Changelog
 
@@ -73,16 +64,9 @@ found [here](.github/CODE_OF_CONDUCT.md).
 ## Security Policy
 
 If you find bugs and vulnerabilities, please
-contact [unit@pavlusha.me](mailto:unit@pavlusha.me).
+contact [team@freeunit.org](mailto:team@freeunit.org).
 
 More info [here](.github/SECURITY.md)
-
-## Support
-
-<div>
-<p>The project is being developed with the support of IDE from JetBrains</p>
-  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" alt="JetBrains Logo (Main) logo.">
-</div>
 
 ## License
 

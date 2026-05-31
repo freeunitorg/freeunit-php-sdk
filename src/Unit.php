@@ -17,7 +17,7 @@ use UnitPhpSdk\Http\UnitRequest;
 use UnitPhpSdk\Statistics\Statistics;
 
 /**
- * This is main class of Nginx Unit manipulation
+ * This is main class of FreeUnit manipulation
  *
  * @implements UnitInterface
  * @property Config $config
